@@ -48,10 +48,10 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Hello Microverse] <a name="about-project"></a>
+# 📖 [Portfolio Project] <a name="about-project"></a>
 
 
-**[Hello Microverse]** is a simple HTML and CSS project to display a colored 'Hello Microverse' text.
+**Portfolio Project** is a simple HTML and CSS Mobile view portfolio project for a web developer.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -59,23 +59,16 @@ After you're finished please remove all the comments and instructions!
 
 
 <details>
-  <summary>Client</summary>
+  <summary>HTML</summary>
   <ul>
-    <li><a href="#">React.js</a></li>
+    <li><a href="#">HTML</a></li>
   </ul>
 </details>
 
 <details>
-  <summary>Server</summary>
+  <summary>CSS</summary>
   <ul>
-    <li><a href="#">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="#">PostgreSQL</a></li>
+    <li><a href="#">CSS</a></li>
   </ul>
 </details>
 
@@ -84,16 +77,9 @@ After you're finished please remove all the comments and instructions!
 ### Key Features <a name="key-features"></a>
 
 
-- **[Hello microvers]**
-- **[Color of text changed]**
-- **[Css externally linked]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- **Navbar**
+- **Mobile responsive**
+- **Icons to link to social media**
 
 <!-- GETTING STARTED -->
 
@@ -117,7 +103,7 @@ Example command:
 
 ### Setup
 
-Clone this repository to your desired folder: https://github.com/mosidrum/Hello-Microverse
+Clone this repository to your desired folder: https://github.com/mosidrum/Portfolio
 
 <!--
 Example commands:
@@ -138,7 +124,7 @@ Example command:
 
 ### Usage
 
-To run the project, execute the following command: Open the file with your default brower
+To run the project, execute the following command: Clone the repo and open the index.html file with your default browser
 
 <!--
 Example command:
@@ -158,7 +144,7 @@ Example command:
 
 ### Deployment
 
-You can deploy this project using: A live server
+You can deploy this project using: A live server from your code editor
 
 <!--
 Example:
@@ -191,7 +177,9 @@ Example:
 
 
 
-- [ ] **[Change the color of text]**
+- [ ] **Improved UI design**
+- [ ] **Other Designs for other screen sizes**
+- [ ] **More functionalities**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -212,7 +200,7 @@ Feel free to check the [issues page](../../issues/).
 
 
 
-If you like this project...
+If you like this project, support and encourage me
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -222,7 +210,7 @@ If you like this project...
 
 
 
-I would like to thank my coding partner at microverse that guided me through
+I would like to thank God almighty and my coding partner at microverse that guided me through
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
