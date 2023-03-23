@@ -20,6 +20,10 @@
   color: white;
   padding: 20px;
 }
+.header a {
+  text-decoration: none;
+  color: #fff;
+}
 
 span {
   font-family: 'Roboto', sans-serif;
@@ -29,7 +33,7 @@ span {
   text-align: center;
 }
 
-main {
+section {
   height: 590px;
   width: 375px;
   left: 0;
@@ -41,16 +45,9 @@ main {
   background-image: url(./assets/Group.png);
   background-repeat: no-repeat;
   background-position: right 19rem;
-}
-
-.main {
-  height: 124px;
-  width: 327px;
-  left: 24px;
-  top: 120px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 15px;
 }
 
 h1 {
@@ -103,12 +100,10 @@ p {
 
 .icons {
   order: 3;
+  display: flex;
+  list-style: none;
 }
 
-.icons img {
-  padding: 5px;
-}
-
-.icons img:hover {
-  cursor: pointer;
+a {
+  padding: 10px;
 }
