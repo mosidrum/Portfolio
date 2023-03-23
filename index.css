@@ -8,6 +8,10 @@
   margin: 0; /* no unit */
 }
 
+a {
+  padding: 10px;
+}
+
 .header {
   display: flex;
   height: 72px;
@@ -20,6 +24,7 @@
   color: white;
   padding: 20px;
 }
+
 .header a {
   text-decoration: none;
   color: #fff;
@@ -104,6 +109,4 @@ p {
   list-style: none;
 }
 
-a {
-  padding: 10px;
-}
+
