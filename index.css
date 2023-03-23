@@ -4,16 +4,16 @@
 
 * {
   box-sizing: border-box;
-  padding: 0px; /* no unit */
-  margin: 0px; /* no unit */
+  padding: 0; /* no unit */
+  margin: 0; /* no unit */
 }
 
 .header {
   display: flex;
   height: 72px;
   width: 375px;
-  left: 0px;
-  top: 0px; /* no unit */
+  left: 0;
+  top: 0; /* no unit */
   justify-content: space-between;
   align-items: center;
   background: #3c3a39;
@@ -32,9 +32,9 @@ span {
 main {
   height: 590px;
   width: 375px;
-  left: 0px;
+  left: 0;
   top: 92px;
-  border-radius: 0px; /* no unit */
+  border-radius: 0; /* no unit */
   padding: 120px 24px 120px 24px;
   background: #1c1a19;
   color: #fff;
@@ -50,7 +50,7 @@ main {
   top: 120px;
   display: flex;
   flex-direction: column;
-  gap: 10px;    
+  gap: 10px;
 }
 
 h1 {
@@ -86,14 +86,12 @@ p {
   flex: none;
   order: 1;
   flex-grow: 0; /* no unit */
-  font-family: 'Roboto', sans-serif;
 }
 
 .text-down {
   width: 327px;
   height: 123px;
-  font-family: 'Poppins';
-  font-style: normal;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -103,7 +101,7 @@ p {
   flex-grow: 0; /* no unit */
 }
 
-  .icons {
+.icons {
   order: 3;
 }
 
