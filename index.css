@@ -12,7 +12,7 @@ a {
   padding: 10px;
 }
 
-.header {
+header {
   display: flex;
   height: 72px;
   width: 375px;
@@ -25,7 +25,7 @@ a {
   padding: 20px;
 }
 
-.header a {
+header a {
   text-decoration: none;
   color: #fff;
 }
