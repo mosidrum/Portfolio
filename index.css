@@ -329,7 +329,6 @@ button {
 .skills ul {
   display: flex;
   flex-direction: column;
-  top: 0px;
   gap: 40px;
   text-align: center;
 }
