@@ -11,6 +11,7 @@
 body {
   height: 1500px;
 }
+
 a {
   padding: 10px;
 }
@@ -125,6 +126,7 @@ p {
   top: 105px;
   text-align: center;
   justify-content: center;
+  font-size: 35px;
 }
 
 .recent hr {
@@ -150,15 +152,15 @@ p {
   font-size: 16px;
 }
 
-.recent .buttons {
-  position: relative;
-  top: 145px;
-}
-
-.buttons{
+.buttons {
   display: grid;
   gap: 8px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.recent .buttons {
+  position: relative;
+  top: 145px;
 }
 
 .buttons li {
@@ -166,14 +168,18 @@ p {
 }
 
 button {
-  padding: 3px 7px;
+  padding: 7px;
   border-radius: none;
   cursor: pointer;
+  border-style: none;
+  background: #fff;
+  border: 1px solid #000;
 }
 
 .card-section {
   display: grid;
   gap: 10px;
+  margin-bottom: 300px;
 }
 
 .two {
@@ -183,27 +189,32 @@ button {
   border: none;
   padding: 12px;
   margin-top: 7px;
+  font-size: 1.1rem;
 }
 
-.cards{
+.cards {
   position: relative;
   top: 180px;
   width: 375px;
   padding: 10px;
   text-align: center;
+  align-items: center;
   justify-content: center;
   color: #fff;
 }
 
-.card-item{
+.card-item {
   display: grid;
   height: 386px;
   background-image: url(./Assets/card-bg.png);
+  background-repeat: no-repeat;
+  background-size: 375px;
 }
 
 .card-item h1 {
   margin-top: 50px;
   font-size: 32px;
+  padding-left: 10px;
   letter-spacing: 4px;
 }
 
@@ -217,22 +228,141 @@ button {
   border: none;
   color: #fff;
   font-size: 19px;
+  width: 355px;
 }
+
 .card-item .buttons3 {
   display: flex;
   gap: 30px;
   margin-top: 10px;
-  padding: 0px 15px;
+  padding: 0 15px;
+  border: none;
 }
 
 .buttons3 button {
   background: rgba(111, 105, 105, 0.4);
   border: none;
   color: #fff;
-  cursor:pointer;
+  cursor: pointer;
   opacity: 0.8;
   padding: 8px;
 }
+
 .card-item ul li {
   list-style: none;
+}
+
+.about {
+  width: 375px;
+  height: 1900px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: #1c1a19;
+  background-image: url(./Assets/about-bg.png);
+  background-repeat: no-repeat;
+  background-position: right 25rem;
+  background-size: 9rem;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 390px;
+  color: #fff;
+  padding: 10px;
+}
+
+.about-me h1 {
+  position: absolute;
+  font-size: 72px;
+  color: #ff6b00;
+  top: 120px;
+  padding: 10px;
+}
+
+.about-me p {
+  position: absolute;
+  font-size: 16px;
+  padding: 10px;
+  top: 223px;
+}
+
+.about-me ul li {
+  padding: 10px;
+}
+
+.about-me button {
+  position: relative;
+  top: 395px;
+  color: #fff;
+  background-color: #ff6b00;
+  padding: 12px;
+  border: none;
+}
+
+.about-me hr {
+  position: relative;
+  top: 280px;
+  width: 335px;
+  align-items: center;
+  justify-content: center;
+}
+
+.skills {
+  height: 1081px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 100px;
+  padding: 10px;
+  left: 80px;
+  color: #fff;
+  font-size: 18px;
+  position: absolute;
+  top: 750px;
+  margin: 0 auto;
+}
+
+.skills ul {
+  display: flex;
+  flex-direction: column;
+  top: 0px;
+  gap: 40px;
+  text-align: center;
+}
+
+.skills ul li {
+  list-style: none;
+}
+
+.skill-dot {
+  display: flex;
+  justify-content: center;
+  margin-left: -30px;
+  gap: 20px;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.diamond {
+  width: 18px;
+  height: 18px;
+  background-color: #ff6b00;
+  transform: rotate(45deg);
+}
+
+.square {
+  width: 18px;
+  height: 18px;
+  background-color: #ff6b00;
+}
+
+.circle {
+  width: 18px;
+  height: 18px;
+  background-color: #ff6b00;
+  border-radius: 50%;
 }
