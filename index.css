@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;700&family=Roboto&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,900;1,700;1,800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;700&family=Poppins:wght@200;300;400;600&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;700&family=Crete+Round&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
 
 * {
   box-sizing: border-box;
@@ -126,6 +127,7 @@ p {
   top: 105px;
   text-align: center;
   justify-content: center;
+  font-family: 'Crete Round', serif;
   font-size: 35px;
 }
 
@@ -137,6 +139,7 @@ p {
 
 .recent h3 {
   position: relative;
+  font-family: 'Crete Round', serif;
   top: 135px;
   font-size: 30px;
 }
@@ -156,11 +159,13 @@ p {
   display: grid;
   gap: 8px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  font-family: 'Inter', sans-serif;
 }
 
 .recent .buttons {
   position: relative;
   top: 145px;
+  font-family: 'Inter', sans-serif;
 }
 
 .buttons li {
@@ -170,6 +175,7 @@ p {
 button {
   padding: 7px;
   border-radius: none;
+  font-family: 'Inter', sans-serif;
   cursor: pointer;
   border-style: none;
   background: #fff;
@@ -216,10 +222,13 @@ button {
   font-size: 32px;
   padding-left: 10px;
   letter-spacing: 4px;
+  text-align: left;
+  font-family: 'Crete Round', serif;
 }
 
 .card-item p {
   text-align: left;
+  font-family: 'Inter', sans-serif;
   padding: 10px 30px 10px 10px;
 }
 
@@ -236,6 +245,7 @@ button {
   gap: 30px;
   margin-top: 10px;
   padding: 0 15px;
+  font-family: 'Inter', sans-serif;
   border: none;
 }
 
@@ -246,6 +256,7 @@ button {
   cursor: pointer;
   opacity: 0.8;
   padding: 8px;
+  font-family: 'Inter', sans-serif;
 }
 
 .card-item ul li {
@@ -258,6 +269,7 @@ button {
   display: flex;
   flex-direction: column;
   position: relative;
+  font-family: 'Inter', sans-serif;
   background-color: #1c1a19;
   background-image: url(./Assets/about-bg.png);
   background-repeat: no-repeat;
@@ -277,6 +289,7 @@ button {
 
 .about-me h1 {
   position: absolute;
+  font-family: 'Crete Round', serif;
   font-size: 72px;
   color: #ff6b00;
   top: 120px;
@@ -285,7 +298,8 @@ button {
 
 .about-me p {
   position: absolute;
-  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  font-size: 19px;
   padding: 10px;
   top: 223px;
 }
@@ -301,6 +315,7 @@ button {
   background-color: #ff6b00;
   padding: 12px;
   border: none;
+  font-family: 'Inter', sans-serif;
 }
 
 .about-me hr {
