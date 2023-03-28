@@ -423,9 +423,7 @@ textarea {
 }
 
 form input {
-  border-bottom: 1.3rem 
-  solid 
-  #d3d2d2; 
+  border-bottom: 1px solid #3c3a39;
 }
 
 form textarea {
