@@ -260,10 +260,28 @@ form button {
   margin-top: 10px;
   margin-bottom: 50px;
   align-self: center;
-  border: none;
+  border-color: #fff;
   background-color: #ff6b00;
-  font-weight: 500;
+  font-weight: 600;
   color: #fff;
+}
+
+form button:hover {
+  color: #ff6b00;
+  background-color: #ffede1;
+  border-color: #ff6b00;
+}
+
+.form button:active {
+  border-color: #fff;
+  background-color: #ff6b00;
+  border: none;
+}
+
+form button:disabled {
+  color: #3c3a39;
+  background-color: #e5e5e5;
+  border: none;
 }
 
 .buttons3 button {
@@ -455,11 +473,4 @@ form textarea:placeholder-shown {
   width: 100%;
 }
 
-.foot .short {
-  width: 20%;
-  position: relative;
-  height: 5px;
-  background-color: #040404;
-  border-radius: 5px;
-  top: 70px;
-}
+
