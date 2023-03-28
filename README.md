@@ -25,6 +25,8 @@ OPTIONAL SECTIONS:
 After you're finished please remove all the comments and instructions!
 -->
 
+
+
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -48,11 +50,13 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Portfolio Project] <a name="about-project"></a>
 
+
 **Portfolio Project** is a simple HTML and CSS Mobile view portfolio project for a web developer.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
+
 
 <details>
   <summary>HTML</summary>
@@ -72,6 +76,7 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
+
 - **Navbar**
 - **Mobile responsive**
 - **Icons to link to social media**
@@ -79,6 +84,8 @@ After you're finished please remove all the comments and instructions!
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
+
+
 
 To get a local copy up and running, follow these steps.
 
@@ -153,17 +160,14 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
+
 👤 **Author1**
 
 - GitHub: [@githubhandle](https://github.com/mosidrum)
 - Twitter: [@twitterhandle](https://twitter.com/mosidrum)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/Ayodeleisaac)
 
-👤 **Author2**
 
-- GitHub: [@bifabig](https://github.com/bifabig)
-- Twitter: [@biftu94](https://twitter.com/biftu94)
-- LinkedIn: [Biftu Girma](https://linkedin.com/in/biftu-girma-3598a8126/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -171,9 +175,12 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
+
+
 - [ ] **Improved UI design**
 - [ ] **Other Designs for other screen sizes**
 - [ ] **More functionalities**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -191,6 +198,8 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
+
+
 If you like this project, support and encourage me
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -198,6 +207,8 @@ If you like this project, support and encourage me
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+
 
 I would like to thank God almighty and my coding partner at microverse that guided me through
 
