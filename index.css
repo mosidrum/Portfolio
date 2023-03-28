@@ -122,6 +122,12 @@ p {
   padding: 10px;
 }
 
+footer h2 {
+  font-size: 28px;
+  padding: 40px 10px;
+  text-align: center;
+}
+
 .recent h2 {
   position: relative;
   top: 105px;
@@ -247,6 +253,16 @@ button {
   padding: 0 15px;
   font-family: 'Inter', sans-serif;
   border: none;
+}
+
+form button {
+  width: 40%;
+  margin: 10px 0px 50px 0px;
+  align-self: center;
+  border: none;
+  background-color: #ff6b00;
+  font-weight: 500;
+  color: #fff;
 }
 
 .buttons3 button {
@@ -405,17 +421,14 @@ form {
   align-self: center;
 }
 
-form input, textarea {
+form input,
+textarea {
   border: none;
   padding: 5px;
 }
 
 form input {
-  border-bottom: 1.4px solid #d3d2d2 ; 
-}
-
-form textarea:placeholder-shown {
-  font-style: italic;
+  border-bottom: 1.3rem solid #d3d2d2 ; 
 }
 
 form textarea {
@@ -423,14 +436,8 @@ form textarea {
   border-radius: 3px;
 }
 
-form button {
-  width: 40%;
-  margin: 10px 0px 50px 0px;
-  align-self: center;
-  border: none;
-  background-color: #ff6b00;
-  font-weight: 500;
-  color: #fff;
+form textarea:placeholder-shown {
+  font-style: italic;
 }
 
 .foot {
