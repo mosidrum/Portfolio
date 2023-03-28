@@ -9,10 +9,6 @@
   margin: 0; /* no unit */
 }
 
-body {
-  height: 1500px;
-}
-
 a {
   padding: 10px;
 }
@@ -120,6 +116,12 @@ p {
   gap: 10px;
   width: 375px;
   padding: 10px;
+}
+
+footer h2 {
+  font-size: 28px;
+  padding: 40px 10px;
+  text-align: center;
 }
 
 .recent h2 {
@@ -249,6 +251,17 @@ button {
   border: none;
 }
 
+form button {
+  width: 40%;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  align-self: center;
+  border-color: #fff;
+  background-color: #ff6b00;
+  font-weight: 600;
+  color: #fff;
+}
+
 .buttons3 button {
   background: rgba(111, 105, 105, 0.4);
   border: none;
@@ -257,6 +270,34 @@ button {
   opacity: 0.8;
   padding: 8px;
   font-family: 'Inter', sans-serif;
+}
+
+.about-me button {
+  position: relative;
+  top: 395px;
+  color: #fff;
+  background-color: #ff6b00;
+  padding: 12px;
+  border: none;
+  font-family: 'Inter', sans-serif;
+}
+
+form button:disabled {
+  color: #3c3a39;
+  background-color: #e5e5e5;
+  border: none;
+}
+
+form button:hover {
+  color: #ff6b00;
+  background-color: #ffede1;
+  border-color: #ff6b00;
+}
+
+.form button:active {
+  border-color: #fff;
+  background-color: #ff6b00;
+  border: none;
 }
 
 .card-item ul li {
@@ -306,16 +347,6 @@ button {
 
 .about-me ul li {
   padding: 10px;
-}
-
-.about-me button {
-  position: relative;
-  top: 395px;
-  color: #fff;
-  background-color: #ff6b00;
-  padding: 12px;
-  border: none;
-  font-family: 'Inter', sans-serif;
 }
 
 .about-me hr {
@@ -379,4 +410,61 @@ button {
   height: 18px;
   background-color: #ff6b00;
   border-radius: 50%;
+}
+
+footer {
+  width: 375px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Inter', sans-serif;
+  padding: 12px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+  padding: 10px;
+  align-self: center;
+}
+
+form input,
+textarea {
+  border: none;
+  padding: 5px;
+}
+
+form input {
+  border-bottom: 1px solid #adaaa8;
+}
+
+form textarea {
+  background: #e5e5e5;
+  border-radius: 3px;
+}
+
+form textarea:placeholder-shown {
+  font-style: italic;
+}
+
+.foot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 15px;
+}
+
+.foot .icons {
+  padding: 20px;
+}
+
+.foot .icons img {
+  filter: invert(37%) sepia(16%) saturate(789%) hue-rotate(179deg) brightness(92%) contrast(89%);
+}
+
+.foot .long {
+  width: 100%;
 }
