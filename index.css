@@ -266,6 +266,32 @@ form button {
   color: #fff;
 }
 
+.buttons3 button {
+  background: rgba(111, 105, 105, 0.4);
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  opacity: 0.8;
+  padding: 8px;
+  font-family: 'Inter', sans-serif;
+}
+
+.about-me button {
+  position: relative;
+  top: 395px;
+  color: #fff;
+  background-color: #ff6b00;
+  padding: 12px;
+  border: none;
+  font-family: 'Inter', sans-serif;
+}
+
+form button:disabled {
+  color: #3c3a39;
+  background-color: #e5e5e5;
+  border: none;
+}
+
 form button:hover {
   color: #ff6b00;
   background-color: #ffede1;
@@ -276,22 +302,6 @@ form button:hover {
   border-color: #fff;
   background-color: #ff6b00;
   border: none;
-}
-
-form button:disabled {
-  color: #3c3a39;
-  background-color: #e5e5e5;
-  border: none;
-}
-
-.buttons3 button {
-  background: rgba(111, 105, 105, 0.4);
-  border: none;
-  color: #fff;
-  cursor: pointer;
-  opacity: 0.8;
-  padding: 8px;
-  font-family: 'Inter', sans-serif;
 }
 
 .card-item ul li {
@@ -341,16 +351,6 @@ form button:disabled {
 
 .about-me ul li {
   padding: 10px;
-}
-
-.about-me button {
-  position: relative;
-  top: 395px;
-  color: #fff;
-  background-color: #ff6b00;
-  padding: 12px;
-  border: none;
-  font-family: 'Inter', sans-serif;
 }
 
 .about-me hr {
@@ -472,5 +472,3 @@ form textarea:placeholder-shown {
 .foot .long {
   width: 100%;
 }
-
-
