@@ -257,7 +257,8 @@ button {
 
 form button {
   width: 40%;
-  margin: 10px 0px 50px 0px;
+  margin-top: 10px;
+  margin-bottom: 50px;
   align-self: center;
   border: none;
   background-color: #ff6b00;
@@ -406,11 +407,7 @@ footer {
   padding: 12px;
 }
 
-footer h2 {
-  font-size: 28px;
-  padding: 40px 10px;
-  text-align: center;
-}
+
 
 form {
   display: flex;
