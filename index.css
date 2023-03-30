@@ -41,15 +41,18 @@ nav ul li {
   list-style-type: none;
 }
 
-nav .icons {
-  gap: 10px;
+.icons {
+  order: 3;
+  display: flex;
+  list-style: none;
 }
 
-nav ul {
+nav .icons {
+  gap: 10px;
   display: none;
 }
 
-nav .icons {
+nav ul {
   display: none;
 }
 
@@ -60,6 +63,7 @@ nav .icons2 {
 .icons2:hover {
   cursor: pointer;
 }
+
 span {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
@@ -133,11 +137,7 @@ p {
   flex-grow: 0; /* no unit */
 }
 
-.icons {
-  order: 3;
-  display: flex;
-  list-style: none;
-}
+
 
 .recent {
   display: flex;
@@ -507,16 +507,16 @@ form textarea:placeholder-shown {
     font-family: 'Inter', sans-serif;
   }
 
-  header nav ul {
-    list-style-type: none;
-    padding-right: 80px;
-  }
-
   nav ul {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+  }
+
+  header nav ul {
+    list-style-type: none;
+    padding-right: 80px;
   }
   
   nav .icons {
@@ -580,11 +580,13 @@ form textarea:placeholder-shown {
     margin-bottom: 30px;
     color: #091e42;
   }
+
   .line h2 {
     float: left;
     top: 70px;
     left: 20px;
   }
+
   .line hr {
     text-align: center;
     height: 2px;
@@ -593,6 +595,7 @@ form textarea:placeholder-shown {
     float: right;
     top: 100px;
   }
+
   .img-txt {
     display: flex;
     flex-direction: row;
@@ -643,7 +646,7 @@ form textarea:placeholder-shown {
     top: -400px;
     background-image: url(./Assets/desktop-about.png);
     background-size: 35rem;
-    background-position: 10rem right ;
+    background-position: 10rem right;
     background-position-y: 7rem;
   }
 
@@ -653,9 +656,11 @@ form textarea:placeholder-shown {
     padding-left: 70px;
     gap: 10px;
   }
+
   .about-me h2 {
     top: 100px;
   }
+
   .about-me p {
     width: 566px;
     top: 210px;
@@ -704,7 +709,6 @@ form textarea:placeholder-shown {
   }
 
   .footer-top form input {
-    /* width: 50px; */
     height: 40px;
     font-size: 18px;
   }
@@ -723,11 +727,11 @@ form textarea:placeholder-shown {
     line-height: 52px;
   }
 
-
   .foot .long {
     position: absolute;
     top: 250px;
   }
+
   .foot .icons {
     display: flex;
     flex-direction: row;
