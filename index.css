@@ -16,7 +16,7 @@ a {
 header {
   display: flex;
   height: 72px;
-  width: 375px;
+  width: 100%;
   left: 0;
   top: 0; /* no unit */
   justify-content: space-between;
@@ -31,6 +31,39 @@ header a {
   color: #fff;
 }
 
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+.icons {
+  order: 3;
+  display: flex;
+  list-style: none;
+}
+
+nav .icons {
+  gap: 10px;
+  display: none;
+}
+
+nav ul {
+  display: none;
+}
+
+nav .icons2 {
+  display: block;
+}
+
+.icons2:hover {
+  cursor: pointer;
+}
+
 span {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
@@ -41,7 +74,7 @@ span {
 
 .main {
   height: 590px;
-  width: 375px;
+  width: 100%;
   left: 0;
   top: 92px;
   border-radius: 0; /* no unit */
@@ -50,7 +83,9 @@ span {
   color: #fff;
   background-image: url(./assets/Group.png);
   background-repeat: no-repeat;
-  background-position: right 19rem;
+  background-position: right 17rem;
+  background-position-y: 19rem;
+  background-size: 10rem;
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -104,18 +139,12 @@ p {
   flex-grow: 0; /* no unit */
 }
 
-.icons {
-  order: 3;
-  display: flex;
-  list-style: none;
-}
-
 .recent {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  width: 375px;
-  padding: 10px;
+  width: 100%;
+  padding: 30px;
 }
 
 footer h2 {
@@ -144,6 +173,14 @@ footer h2 {
   font-family: 'Crete Round', serif;
   top: 135px;
   font-size: 30px;
+  text-align: center;
+}
+
+.img-txt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .recent img {
@@ -185,9 +222,12 @@ button {
 }
 
 .card-section {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   gap: 10px;
+  align-items: center;
   margin-bottom: 300px;
+  padding: 20px;
 }
 
 .two {
@@ -305,7 +345,7 @@ form button:hover {
 }
 
 .about {
-  width: 375px;
+  width: 100%;
   height: 1900px;
   display: flex;
   flex-direction: column;
@@ -316,6 +356,7 @@ form button:hover {
   background-repeat: no-repeat;
   background-position: right 25rem;
   background-size: 9rem;
+  padding: 20px;
 }
 
 .about-me {
@@ -325,7 +366,6 @@ form button:hover {
   justify-content: space-between;
   height: 390px;
   color: #fff;
-  padding: 10px;
 }
 
 .about-me h2 {
@@ -340,19 +380,20 @@ form button:hover {
 .about-me p {
   position: absolute;
   font-family: 'Inter', sans-serif;
-  font-size: 19px;
+  font-size: 16px;
   padding: 10px;
   top: 223px;
 }
 
 .about-me ul li {
   padding: 10px;
+  list-style: none;
 }
 
 .about-me hr {
   position: relative;
   top: 280px;
-  width: 335px;
+  width: 100%;
   align-items: center;
   justify-content: center;
 }
@@ -364,12 +405,9 @@ form button:hover {
   justify-content: space-between;
   gap: 100px;
   padding: 10px;
-  left: 80px;
   color: #fff;
   font-size: 18px;
-  position: absolute;
-  top: 750px;
-  margin: 0 auto;
+  margin-top: 350px;
 }
 
 .skills ul {
@@ -413,12 +451,12 @@ form button:hover {
 }
 
 footer {
-  width: 375px;
+  width: 100%;
   height: 300px;
   display: flex;
   flex-direction: column;
   font-family: 'Inter', sans-serif;
-  padding: 12px;
+  padding: 20px;
 }
 
 form {
@@ -469,3 +507,248 @@ form textarea:placeholder-shown {
   width: 100%;
 }
 
+@media only screen and (min-width: 768px) {
+  header {
+    width: 100%;
+    height: 72px;
+    font-family: 'Inter', sans-serif;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  header nav ul {
+    list-style-type: none;
+    padding-right: 80px;
+  }
+
+  .icons {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    position: absolute;
+    left: 25px;
+  }
+
+  nav .icons {
+    display: block;
+    position: absolute;
+    right: 75px;
+  }
+
+  nav .icons2 {
+    display: none;
+  }
+
+  .main {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    top: 0;
+    align-items: center;
+    background-image: url(./Assets/desktop-bg.png);
+    background-position: 52rem;
+    background-size: 27rem;
+    background-repeat: no-repeat;
+    background-position-y: -40px;
+  }
+
+  .text {
+    width: 566px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    left: 150px;
+  }
+
+  .text p {
+    width: 100%;
+  }
+
+  .recent {
+    width: 100%;
+    padding: 80px;
+    color: #091e42;
+  }
+
+  .line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 30px;
+    color: #091e42;
+  }
+
+  .line h2 {
+    float: left;
+    top: 70px;
+    left: 20px;
+  }
+
+  .line hr {
+    text-align: center;
+    height: 2px;
+    width: 70%;
+    background-color: #091e42;
+    float: right;
+    top: 100px;
+  }
+
+  .img-txt {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+  }
+
+  .img-txt img {
+    width: 684px;
+    height: 448px;
+  }
+
+  .multi {
+    display: flex;
+    flex-direction: column;
+    width: 448px;
+  }
+
+  .multi h3 {
+    top: 120px;
+  }
+
+  .multi p {
+    padding-top: 30px;
+  }
+
+  .multi ul {
+    padding-top: 20px;
+    color: #091e42;
+  }
+
+  .multi .buttons {
+    padding-top: 30px;
+  }
+
+  .card-section {
+    width: 100%;
+    display: grid;
+    grid-template-rows: 300px 300px 300px;
+    grid-template-columns: 366px 366px 366px;
+    align-items: center;
+    justify-content: center;
+    row-gap: 120px;
+  }
+
+  .about {
+    width: 100%;
+    height: 1200px;
+    top: -400px;
+    background-image: url(./Assets/desktop-about.png);
+    background-size: 35rem;
+    background-position: 10rem right;
+    background-position-y: 7rem;
+  }
+
+  .about-me {
+    display: flex;
+    flex-direction: column;
+    padding-left: 70px;
+    gap: 10px;
+  }
+
+  .about-me h2 {
+    top: 100px;
+  }
+
+  .about-me p {
+    width: 566px;
+    top: 210px;
+  }
+
+  .about-me button {
+    top: 330px;
+  }
+
+  .about-me hr {
+    width: 95%;
+    top: 350px;
+  }
+
+  .skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90%;
+    align-self: center;
+  }
+
+  .skills ul {
+    margin-top: 120px;
+  }
+
+  .skills li {
+    text-align: left;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+  }
+
+  .footer-top {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    justify-content: left;
+    margin-top: -280px;
+    padding: 70px;
+  }
+
+  .footer-top form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-top form input {
+    height: 40px;
+    font-size: 18px;
+  }
+
+  .footer-top form button {
+    position: absolute;
+    width: 120px;
+    left: 510px;
+    top: 330px;
+  }
+
+  .footer-top h2 {
+    width: 60%;
+    padding: 1px;
+    text-align: left;
+    line-height: 52px;
+  }
+
+  .foot .long {
+    position: absolute;
+    top: 250px;
+  }
+
+  .foot .icons {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 250px;
+    margin-left: 450px;
+  }
+}
