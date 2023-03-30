@@ -16,7 +16,7 @@ a {
 header {
   display: flex;
   height: 72px;
-  width: 375px;
+  width: 100%;
   left: 0;
   top: 0; /* no unit */
   justify-content: space-between;
@@ -74,7 +74,7 @@ span {
 
 .main {
   height: 590px;
-  width: 375px;
+  width: 100%;
   left: 0;
   top: 92px;
   border-radius: 0; /* no unit */
@@ -83,7 +83,9 @@ span {
   color: #fff;
   background-image: url(./assets/Group.png);
   background-repeat: no-repeat;
-  background-position: right 19rem;
+  background-position: right 17rem;
+  background-position-y: 19rem;
+  background-size: 10rem;
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -141,8 +143,8 @@ p {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  width: 375px;
-  padding: 10px;
+  width: 100%;
+  padding: 30px;
 }
 
 footer h2 {
@@ -171,6 +173,14 @@ footer h2 {
   font-family: 'Crete Round', serif;
   top: 135px;
   font-size: 30px;
+  text-align: center;
+}
+
+.img-txt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .recent img {
@@ -212,9 +222,12 @@ button {
 }
 
 .card-section {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   gap: 10px;
+  align-items: center;
   margin-bottom: 300px;
+  padding: 20px;
 }
 
 .two {
@@ -332,7 +345,7 @@ form button:hover {
 }
 
 .about {
-  width: 375px;
+  width: 100%;
   height: 1900px;
   display: flex;
   flex-direction: column;
@@ -343,6 +356,7 @@ form button:hover {
   background-repeat: no-repeat;
   background-position: right 25rem;
   background-size: 9rem;
+  padding: 20px;
 }
 
 .about-me {
@@ -352,7 +366,6 @@ form button:hover {
   justify-content: space-between;
   height: 390px;
   color: #fff;
-  padding: 10px;
 }
 
 .about-me h2 {
@@ -367,7 +380,7 @@ form button:hover {
 .about-me p {
   position: absolute;
   font-family: 'Inter', sans-serif;
-  font-size: 19px;
+  font-size: 16px;
   padding: 10px;
   top: 223px;
 }
@@ -380,7 +393,7 @@ form button:hover {
 .about-me hr {
   position: relative;
   top: 280px;
-  width: 335px;
+  width: 100%;
   align-items: center;
   justify-content: center;
 }
@@ -392,12 +405,9 @@ form button:hover {
   justify-content: space-between;
   gap: 100px;
   padding: 10px;
-  left: 80px;
   color: #fff;
   font-size: 18px;
-  position: absolute;
-  top: 750px;
-  margin: 0 auto;
+  margin-top: 350px;
 }
 
 .skills ul {
@@ -441,12 +451,12 @@ form button:hover {
 }
 
 footer {
-  width: 375px;
+  width: 100%;
   height: 300px;
   display: flex;
   flex-direction: column;
   font-family: 'Inter', sans-serif;
-  padding: 12px;
+  padding: 20px;
 }
 
 form {
@@ -669,7 +679,7 @@ form textarea:placeholder-shown {
 
   .about-me hr {
     width: 95%;
-    top: 200px;
+    top: 350px;
   }
 
   .skills {
@@ -677,6 +687,11 @@ form textarea:placeholder-shown {
     flex-direction: row;
     justify-content: space-around;
     width: 90%;
+    align-self: center;
+  }
+
+  .skills ul {
+    margin-top: 120px;
   }
 
   .skills li {
