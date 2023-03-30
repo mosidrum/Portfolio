@@ -498,7 +498,6 @@ form textarea:placeholder-shown {
 }
 
 @media only screen and (min-width: 768px) {
-
   header {
     width: 100%;
     height: 72px;
@@ -515,6 +514,14 @@ form textarea:placeholder-shown {
   header nav ul {
     list-style-type: none;
     padding-right: 80px;
+  }
+
+  .icons {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    position: absolute;
+    left: 25px;
   }
   
   nav .icons {
@@ -552,14 +559,6 @@ form textarea:placeholder-shown {
 
   .text p {
     width: 100%;
-  }
-
-  .icons {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    position: absolute;
-    left: 25px;
   }
 
   .recent {
@@ -683,14 +682,14 @@ form textarea:placeholder-shown {
   .skills li {
     text-align: left;
   }
-  
+
   footer {
     display: flex;
     flex-direction: column;
     width: 100%;
     position: relative;
   }
-  
+
   .footer-top {
     position: absolute;
     display: flex;
