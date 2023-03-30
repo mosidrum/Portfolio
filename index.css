@@ -137,8 +137,6 @@ p {
   flex-grow: 0; /* no unit */
 }
 
-
-
 .recent {
   display: flex;
   flex-direction: column;
@@ -565,9 +563,9 @@ form textarea:placeholder-shown {
   }
 
   .recent {
-   width: 100%;
-   padding: 80px;
-   color: #091e42;
+    width: 100%;
+    padding: 80px;
+    color: #091e42;
   }
 
   .line {
@@ -608,9 +606,9 @@ form textarea:placeholder-shown {
   }
 
   .multi {
-   display: flex;
-   flex-direction: column;
-   width: 448px;
+    display: flex;
+    flex-direction: column;
+    width: 448px;
   }
 
   .multi h3 {
@@ -739,5 +737,4 @@ form textarea:placeholder-shown {
     top: 250px;
     margin-left: 450px;
   }
-
 }
