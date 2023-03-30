@@ -31,6 +31,35 @@ header a {
   color: #fff;
 }
 
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+nav .icons {
+  gap: 10px;
+}
+
+nav ul {
+  display: none;
+}
+
+nav .icons {
+  display: none;
+}
+
+nav .icons2 {
+  display: block;
+}
+
+.icons2:hover {
+  cursor: pointer;
+}
 span {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
@@ -347,6 +376,7 @@ form button:hover {
 
 .about-me ul li {
   padding: 10px;
+  list-style: none;
 }
 
 .about-me hr {
@@ -469,3 +499,241 @@ form textarea:placeholder-shown {
   width: 100%;
 }
 
+@media only screen and (min-width: 768px) {
+
+  header {
+    width: 100%;
+    height: 72px;
+    font-family: 'Inter', sans-serif;
+  }
+
+  header nav ul {
+    list-style-type: none;
+    padding-right: 80px;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  nav .icons {
+    display: block;
+    position: absolute;
+    right: 75px;
+  }
+
+  nav .icons2 {
+    display: none;
+  }
+
+  .main {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    top: 0;
+    align-items: center;
+    background-image: url(./Assets/desktop-bg.png);
+    background-position: 52rem;
+    background-size: 27rem;
+    background-repeat: no-repeat;
+    background-position-y: -40px;
+  }
+
+  .text {
+    width: 566px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    left: 150px;
+  }
+
+  .text p {
+    width: 100%;
+  }
+
+  .icons {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    position: absolute;
+    left: 25px;
+  }
+
+  .recent {
+   width: 100%;
+   padding: 80px;
+   color: #091e42;
+  }
+
+  .line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 30px;
+    color: #091e42;
+  }
+  .line h2 {
+    float: left;
+    top: 70px;
+    left: 20px;
+  }
+  .line hr {
+    text-align: center;
+    height: 2px;
+    width: 70%;
+    background-color: #091e42;
+    float: right;
+    top: 100px;
+  }
+  .img-txt {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+  }
+
+  .img-txt img {
+    width: 684px;
+    height: 448px;
+  }
+
+  .multi {
+   display: flex;
+   flex-direction: column;
+   width: 448px;
+  }
+
+  .multi h3 {
+    top: 120px;
+  }
+
+  .multi p {
+    padding-top: 30px;
+  }
+
+  .multi ul {
+    padding-top: 20px;
+    color: #091e42;
+  }
+
+  .multi .buttons {
+    padding-top: 30px;
+  }
+
+  .card-section {
+    width: 100%;
+    display: grid;
+    grid-template-rows: 300px 300px 300px;
+    grid-template-columns: 366px 366px 366px;
+    align-items: center;
+    justify-content: center;
+    row-gap: 120px;
+  }
+
+  .about {
+    width: 100%;
+    height: 1200px;
+    top: -400px;
+    background-image: url(./Assets/desktop-about.png);
+    background-size: 35rem;
+    background-position: 10rem right ;
+    background-position-y: 7rem;
+  }
+
+  .about-me {
+    display: flex;
+    flex-direction: column;
+    padding-left: 70px;
+    gap: 10px;
+  }
+  .about-me h2 {
+    top: 100px;
+  }
+  .about-me p {
+    width: 566px;
+    top: 210px;
+  }
+
+  .about-me button {
+    top: 330px;
+  }
+
+  .about-me hr {
+    width: 95%;
+    top: 200px;
+  }
+
+  .skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90%;
+  }
+
+  .skills li {
+    text-align: left;
+  }
+  
+  footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+  }
+  
+  .footer-top {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    justify-content: left;
+    margin-top: -280px;
+    padding: 70px;
+  }
+
+  .footer-top form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-top form input {
+    /* width: 50px; */
+    height: 40px;
+    font-size: 18px;
+  }
+
+  .footer-top form button {
+    position: absolute;
+    width: 120px;
+    left: 510px;
+    top: 330px;
+  }
+
+  .footer-top h2 {
+    width: 60%;
+    padding: 1px;
+    text-align: left;
+    line-height: 52px;
+  }
+
+
+  .foot .long {
+    position: absolute;
+    top: 250px;
+  }
+  .foot .icons {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 250px;
+    margin-left: 450px;
+  }
+
+}

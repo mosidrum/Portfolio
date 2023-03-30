@@ -24,10 +24,20 @@
 		<title>My Portfolio</title>
 	</head>
 	<body>
-		<header>
+		<header class=>
       <a href="#"><span>Logo</span></a>
-			<nav class="header">
-				<i class="fa-solid fa-bars"></i>
+			<nav>
+        <ul>
+          <li>
+            <a href="#">Portfolio</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>  
+          </li>
+          <i class="fa-regular fa-envelope"></i>
+        </ul>
+        <div class="icons2">
+          <i class="fa-solid fa-bars"></i>
+        </div>
 			</nav>
 		</header>
 		<main >
@@ -73,20 +83,22 @@
             <h2>My Recent Works</h2>
             <hr>
           </div>
-          <img src="./Assets/Img Placeholder.png" alt="">
-          <div class="multi">
-            <h3>Multi-Post Stories</h3>
-            <p>
-              A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
-            </p>
-            <div >
-              <ul class="buttons">
-                <button><li>CSS</li></button>
-                <button><li>HTML</li></button>
-                <button><li>Bootstrap</li></button>
-                <button><li>Ruby</li></button>
-                <button class="two"><li>See project</li></button>
-              </ul>
+          <div class="img-txt">
+            <img src="./Assets/Img Placeholder.png" alt="">
+            <div class="multi">
+              <h3>Multi-Post Stories</h3>
+              <p>
+                A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
+              </p>
+              <div >
+                <ul class="buttons">
+                  <button><li>CSS</li></button>
+                  <button><li>HTML</li></button>
+                  <button><li>Bootstrap</li></button>
+                  <button><li>Ruby</li></button>
+                  <button class="two"><li>See project</li></button>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -207,15 +219,17 @@
       </section>
     </main>
     <footer>
-      <h2>
-        I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
-      </h2>
-      <form action="https://formspree.io/f/xyyangjd" method="POST">
-        <input type="text" name="name" placeholder="Full name" maxlength="30" required>
-        <input type="email" name="email" placeholder="Email" required>
-        <textarea name="textarea" id="" cols="20" rows="8" placeholder="Write me something" maxlength="500" required></textarea>
-        <button>Get in touch</button>
-      </form>
+      <div class="footer-top">
+        <h2>
+          I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
+        </h2>
+        <form action="https://formspree.io/f/xyyangjd" method="POST">
+          <input type="text" name="name" placeholder="Full name" maxlength="30" required>
+          <input type="email" name="email" placeholder="Email" required>
+          <textarea name="textarea" id="" cols="20" rows="8" placeholder="Write me something" maxlength="500" required></textarea>
+          <button>Get in touch</button>
+        </form>
+      </div>
       <div class="foot">
         <hr class="long">
         <ul class="icons">
@@ -243,7 +257,6 @@
 						/></a>
 					</li>
 				</ul>
-        <hr class="short">
       </div>
     </footer>
 	</body>
