@@ -100,7 +100,6 @@ span {
   font-size: 56px;
   line-height: 64px;
   letter-spacing: 0.37px;
-  color: #ff6b00;
   flex: none;
   order: 0; /* no unit */
   flex-grow: 0; /* no unit */
@@ -117,7 +116,7 @@ span {
 @keyframes move {
   0%,
     100% {
-      background-position: 200% 0%;
+    background-position: 200% 0%;
   }
 
     50% {
