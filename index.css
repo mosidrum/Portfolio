@@ -514,6 +514,10 @@ form textarea:placeholder-shown {
     font-family: 'Inter', sans-serif;
   }
 
+  header span {
+    margin-left: 130px;
+  }
+
   nav ul {
     display: flex;
     flex-direction: row;
@@ -552,7 +556,7 @@ form textarea:placeholder-shown {
     top: 0;
     align-items: center;
     background-image: url(./Assets/desktop-bg.png);
-    background-position: 52rem;
+    background-position: 61rem;
     background-size: 27rem;
     background-repeat: no-repeat;
     background-position-y: -40px;
@@ -728,8 +732,9 @@ form textarea:placeholder-shown {
   .footer-top form button {
     position: absolute;
     width: 120px;
-    left: 510px;
-    top: 330px;
+    left: 563px;
+    top: 340px;
+    padding: 10px;
   }
 
   .footer-top h2 {
