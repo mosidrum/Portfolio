@@ -137,7 +137,7 @@ Example command:
 
 ### Deployment
 
-You can deploy this project using: A live server from your code editor
+https://mosidrum.github.io/Portfolio/
 
 <!--
 Example:
