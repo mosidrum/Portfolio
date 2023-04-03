@@ -96,14 +96,31 @@ span {
   height: 124px;
   font-family: 'Crete Round', serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 56px;
   line-height: 64px;
   letter-spacing: 0.37px;
-  color: #ff6b00;
   flex: none;
   order: 0; /* no unit */
   flex-grow: 0; /* no unit */
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-size: 400%;
+  animation: move 5s ease infinite;
+  background-image: linear-gradient(68.7deg, rgba(29, 173, 235, 1) 13.2%, rgba(137, 149, 250, 1) 29.8%, rgba(229, 109, 212, 1) 48.9%, rgba(255, 68, 128, 1) 68.2%, rgba(255, 94, 0, 1) 86.4%);
+}
+
+@keyframes move {
+  0%,
+  100% {
+    background-position: 200% 0%;
+  }
+
+  50% {
+    background-position: 0% 200%;
+  }
 }
 
 p {
@@ -514,6 +531,10 @@ form textarea:placeholder-shown {
     font-family: 'Inter', sans-serif;
   }
 
+  header span {
+    margin-left: 130px;
+  }
+
   nav ul {
     display: flex;
     flex-direction: row;
@@ -552,7 +573,7 @@ form textarea:placeholder-shown {
     top: 0;
     align-items: center;
     background-image: url(./Assets/desktop-bg.png);
-    background-position: 52rem;
+    background-position: 61rem;
     background-size: 27rem;
     background-repeat: no-repeat;
     background-position-y: -40px;
@@ -728,8 +749,9 @@ form textarea:placeholder-shown {
   .footer-top form button {
     position: absolute;
     width: 120px;
-    left: 510px;
-    top: 330px;
+    left: 563px;
+    top: 340px;
+    padding: 10px;
   }
 
   .footer-top h2 {
