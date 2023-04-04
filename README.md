@@ -73,9 +73,19 @@ After you're finished please remove all the comments and instructions!
 ### Key Features <a name="key-features"></a>
 
 - **Navbar**
-- **Mobile responsive**
-- **Icons to link to social media**
+- **Contact form**
+- **About section**
+- **Responsive**
+- **Social media Icons**
 - **Animation**
+- **Transition effect**
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+https://https://mosidrum.github.io/Portfolio/
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p
 
 <!-- GETTING STARTED -->
 
