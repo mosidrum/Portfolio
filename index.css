@@ -108,7 +108,7 @@ span {
   -webkit-background-clip: text;
   background-clip: text;
   background-size: 400%;
-  transition: .3s ease;
+  transition: 0.3s ease;
   animation: move 5s ease infinite;
   background-image: linear-gradient(68.7deg, rgba(29, 173, 235, 1) 13.2%, rgba(137, 149, 250, 1) 29.8%, rgba(229, 109, 212, 1) 48.9%, rgba(255, 68, 128, 1) 68.2%, rgba(255, 94, 0, 1) 86.4%);
 }
@@ -304,7 +304,7 @@ button {
 .card-item .proj-btn {
   background-color: #ff6b00;
   border: none;
-  color: #000000;
+  color: #000;
   font-size: 19px;
   width: 355px;
 }
@@ -356,7 +356,7 @@ form button {
 }
 
 form button:disabled {
-  color: #000000;
+  color: #000;
   background-color: #e5e5e5;
   border: none;
 }
@@ -616,7 +616,7 @@ form textarea:placeholder-shown {
   }
 
   .text h1 {
-    transition: .3s ease;
+    transition: 0.3s ease;
   }
 
   .text h1:hover {
@@ -625,9 +625,23 @@ form textarea:placeholder-shown {
     -ms-transform: scale(1.3);
   }
 
+  .card-item h1,
+   p, 
+   button {
+    z-index: 10;
+    color: #000;
+  }
+
   .text p {
     width: 100%;
-    transition: .3s ease-in-out;
+    transition: 0.3s ease-in-out;
+  }
+
+  .about-me {
+    display: flex;
+    flex-direction: column;
+    padding-left: 70px;
+    gap: 10px;
   }
 
   .text p:hover {
@@ -677,7 +691,7 @@ form textarea:placeholder-shown {
   .img-txt img {
     width: 684px;
     height: 448px;
-    transition: .3s ease;
+    transition: 0.3s ease;
   }
 
   .img-txt img:hover {
@@ -723,12 +737,7 @@ form textarea:placeholder-shown {
   }
 
   .cards {
-    transition: .3s ease;
-  }
-
-  .card-item h1, p, button {
-    z-index: 10;
-    color: #000;
+    transition: 0.3s ease;
   }
 
   .cards:hover {
@@ -745,13 +754,6 @@ form textarea:placeholder-shown {
     background-size: 35rem;
     background-position: 10rem right;
     background-position-y: 7rem;
-  }
-
-  .about-me {
-    display: flex;
-    flex-direction: column;
-    padding-left: 70px;
-    gap: 10px;
   }
 
   .about-me h2 {
