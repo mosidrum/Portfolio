@@ -202,7 +202,9 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, support and encourage me
+If you like this project, support and encourage me. The link below is a walk through what i learn, challenges i faced and feature improvement i will add
+
+https://www.loom.com/share/d597afff165d4420a3d4c470f1036675 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
