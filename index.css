@@ -178,10 +178,6 @@ p {
   font-family: 'Poppins', sans-serif;
 }
 
-p:hover {
-  cursor: pointer;
-}
-
 .text-top {
   width: 327px;
   height: 27px;
@@ -192,7 +188,7 @@ p:hover {
   line-height: 32px;
   display: flex;
   align-items: center;
-  color: #fff5e1;
+  color: #fff;
   flex: none;
   order: 1;
   flex-grow: 0; /* no unit */
