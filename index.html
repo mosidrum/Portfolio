@@ -25,19 +25,21 @@
 	</head>
 	<body>
 		<header>
-      <a href="#"><span>Logo</span></a>
+      <a href="#"><span>Isaac Mosiron</span></a>
+      <div class="icons2" onclick="showMenu()">
+        <i class="fa fa-bars"></i>
+      </div>
 			<nav>
-        <ul>
+        <ul id="menu">
           <li>
-            <a href="#">Portfolio</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>  
+            <a href="#portfolio" onclick="closeMenu()">Portfolio</a>
+            <a href="#about" onclick="closeMenu()">About</a>
+            <a href="#contact" onclick="closeMenu()">Contact</a>  
           </li>
           <i class="fa-regular fa-envelope"></i>
+          <div class="cancel" id="close" onclick="closeMenu()"><i class="fa fa-times"></i></div>
         </ul>
-        <div class="icons2">
-          <i class="fa-solid fa-bars"></i>
-        </div>
+      
 			</nav>
 		</header>
 		<main >
@@ -77,7 +79,7 @@
 					</li>
 				</ul>
 			</section>
-      <section>
+      <section id="portfolio">
         <div class="recent">
           <div class="line">
             <h2>My Recent Works</h2>
@@ -177,7 +179,7 @@
           </div>
         </div>
       </section>
-      <section class="about">
+      <section class="about" id="about">
         <div class="about-me">
           <h2>
             About me
@@ -218,7 +220,7 @@
         </div>
       </section>
     </main>
-    <footer>
+    <footer id="contact">
       <div class="footer-top">
         <h2>
           I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
@@ -263,5 +265,6 @@
 				</ul>
       </div>
     </footer>
+    <script src="index.js"></script>
 	</body>
 </html>
