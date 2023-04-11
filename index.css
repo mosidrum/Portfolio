@@ -89,6 +89,7 @@ nav .cancel {
 
 .icons2:hover {
   cursor: pointer;
+  font-size: 18px;
 }
 
 span {
@@ -175,6 +176,10 @@ button {
 
 p {
   font-family: 'Poppins', sans-serif;
+}
+
+p:hover {
+  cursor: pointer;
 }
 
 .text-top {
