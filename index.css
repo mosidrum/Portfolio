@@ -37,8 +37,7 @@ nav {
   justify-content: space-evenly;
   position: fixed;
   right: -10px;
-  z-index: 100;
-  
+  z-index: 100; 
 }
 
 .icons {
@@ -51,6 +50,7 @@ nav .icons {
   gap: 10px;
   display: none;
 }
+
 nav ul li {
   list-style-type: none;
   display: flex;
@@ -58,9 +58,7 @@ nav ul li {
   width: 100vw;
 }
 
-
 nav ul {
-  display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
@@ -88,7 +86,6 @@ nav .cancel {
   right: 30px;
   top: 70px;
 }
-
 
 .icons2:hover {
   cursor: pointer;
