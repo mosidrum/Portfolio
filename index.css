@@ -545,6 +545,30 @@ form {
   align-self: center;
 }
 
+form .message {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+form .success {
+  font-size: 16px;
+  color: green;
+  position: absolute;
+  animation: buttons .3s linear;
+  display: none;
+}
+
+form .danger {
+  font-size: 16px;
+  color: red;
+  position: absolute;
+  transition: .3s;
+  animation: buttons .3s linear;
+  display: none;
+}
+
 form label {
   display: none;
 }
@@ -898,6 +922,33 @@ form textarea:placeholder-shown {
   .footer-top form {
     display: flex;
     flex-direction: column;
+    align-items: center;
+  }
+  
+  form .message {
+    width: 100%;
+    position: absolute;
+    top: 430px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  form .message .success {
+    font-size: 18px;
+    color: green;
+    animation: buttons .3s linear;
+    position: absolute;
+    display: none;
+  }
+
+  form .message .danger {
+    font-size: 18px;
+    color: red;
+    position: absolute;
+    transition: .3s;
+    animation: buttons .3s linear;
+    display: none;
   }
 
   .footer-top form input {
