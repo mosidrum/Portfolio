@@ -31,6 +31,8 @@ function validateEmail(email){
       name ===''
       email ===''
       msg ===''
+      success.style.display = 'none'
+      danger.style.display = 'none'
     },2000)
   }
   
