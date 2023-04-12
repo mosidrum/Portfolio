@@ -231,8 +231,16 @@
           <label for="email">Email</label>
           <input type="email" name="email" id="email" placeholder="Email" required>
           <label for="textarea">Name</label>
-          <textarea name="textarea" id="textarea" cols="20" rows="8" placeholder="Write me something" maxlength="500" required></textarea>
-          <button>Get in touch</button>
+          <textarea name="textarea" id="textarea" cols="90" rows="8" placeholder="Write me something" maxlength="500" required></textarea>
+          <div class="message">
+            <div class="success" id="success">
+              We have received your information. Thanks!
+            </div>
+            <div class="danger" id="danger">
+              Wrong email
+            </div>
+          </div>
+          <button onclick="validateEmail('email')">Get in touch</button>
         </form>
       </div>
       <div class="foot">
