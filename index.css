@@ -556,7 +556,7 @@ form .success {
   font-size: 16px;
   color: green;
   position: absolute;
-  animation: buttons .3s linear;
+  animation: buttons 0.3s linear;
   display: none;
 }
 
@@ -564,8 +564,8 @@ form .danger {
   font-size: 16px;
   color: red;
   position: absolute;
-  transition: .3s;
-  animation: buttons .3s linear;
+  transition: 0.3s;
+  animation: buttons 0.3s linear;
   display: none;
 }
 
@@ -924,7 +924,7 @@ form textarea:placeholder-shown {
     flex-direction: column;
     align-items: center;
   }
-  
+
   form .message {
     width: 100%;
     position: absolute;
@@ -937,7 +937,7 @@ form textarea:placeholder-shown {
   form .message .success {
     font-size: 18px;
     color: green;
-    animation: buttons .3s linear;
+    animation: buttons 0.3s linear;
     position: absolute;
     display: none;
   }
@@ -946,8 +946,8 @@ form textarea:placeholder-shown {
     font-size: 18px;
     color: red;
     position: absolute;
-    transition: .3s;
-    animation: buttons .3s linear;
+    transition: 0.3s;
+    animation: buttons 0.3s linear;
     display: none;
   }
 
