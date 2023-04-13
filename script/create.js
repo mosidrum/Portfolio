@@ -1,5 +1,5 @@
+const body = document.querySelector('body')
 const recent = document.getElementById('portfolio')
-const cardSection = document.getElementsByClassName('card-section')
 
 const recentContent = [{
   title: 'My Recent Works',
@@ -35,6 +35,97 @@ recentContent.forEach((e) => {
   </div>
 </div>
   `)
+})
+
+
+
+const cardSectionContent = [{
+  title: ['Profesional Art Printing Data', 'Data Dashboard Healthcare', 'Website Portfolio'],
+  desc: "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
+  buttons: ['CSS', 'HTML', 'Ruby', 'See project']
+}]
+
+let cardSection = document.createElement('section')
+cardSection.classList.add('card-section')
+
+cardSectionContent.forEach((e) => {
+let cardSectionDetails = `
+<div class="cards">
+<div class="card-item">
+  <h1>${e.title[0]}</h1>
+  <p>${e.desc}</p>
+  <ul class="buttons3">
+   <li><button>${e.buttons[0]}</button></li>
+   <li><button>${e.buttons[1]}</button></li>
+   <li><button>${e.buttons[2]}</button></li>
+  </ul>
+  <button class="proj-btn">${e.buttons[3]}</button>
+</div>
+</div>
+<div class="cards">
+<div class="card-item">
+  <h1>${e.title[1]}</h1>
+  <p>${e.desc}</p>
+  <ul class="buttons3">
+   <li><button>${e.buttons[0]}</button></li>
+   <li><button>${e.buttons[1]}</button></li>
+   <li><button>${e.buttons[2]}</button></li>
+  </ul>
+  <button class="proj-btn">${e.buttons[3]}</button>
+</div>
+</div>
+<div class="cards">
+<div class="card-item">
+  <h1>${e.title[2]}</h1>
+  <p>${e.desc}</p>
+  <ul class="buttons3">
+   <li><button>${e.buttons[0]}</button></li>
+   <li><button>${e.buttons[1]}</button></li>
+   <li><button>${e.buttons[2]}</button></li>
+  </ul>
+  <button class="proj-btn">${e.buttons[3]}</button>
+</div>
+</div>
+<div class="cards">
+<div class="card-item">
+  <h1>${e.title[0]}</h1>
+  <p>${e.desc}</p>
+  <ul class="buttons3">
+   <li><button>${e.buttons[0]}</button></li>
+   <li><button>${e.buttons[1]}</button></li>
+   <li><button>${e.buttons[2]}</button></li>
+  </ul>
+  <button class="proj-btn">${e.buttons[3]}</button>
+</div>
+</div>
+<div class="cards">
+<div class="card-item">
+  <h1>${e.title[1]}</h1>
+  <p>${e.desc}</p>
+  <ul class="buttons3">
+   <li><button>${e.buttons[0]}</button></li>
+   <li><button>${e.buttons[1]}</button></li>
+   <li><button>${e.buttons[2]}</button></li>
+  </ul>
+  <button class="proj-btn">${e.buttons[3]}</button>
+</div>
+</div>
+<div class="cards">
+<div class="card-item">
+  <h1>${e.title[2]}</h1>
+  <p>${e.desc}</p>
+  <ul class="buttons3">
+   <li><button>${e.buttons[0]}</button></li>
+   <li><button>${e.buttons[1]}</button></li>
+   <li><button>${e.buttons[2]}</button></li>
+  </ul>
+  <button class="proj-btn">${e.buttons[3]}</button>
+</div>
+</div>
+`;
+cardSection.innerHTML = cardSectionDetails
+body.appendChild(cardSection)
+
 })
 
 
