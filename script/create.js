@@ -1,59 +1,45 @@
-let portfolio = document.createElement('section')
-portfolio.id = 'portfolio'
-portfolio.innerHTML = `
-<div class="recent">
-<div class="line">
-  <h2>My Recent Works</h2>
-  <hr>
-</div>
-<div class="img-txt">
-  <img src="./Assets/Img Placeholder.png" alt=" background assest image">
-  <div class="multi">
-    <h3>Multi-Post Stories</h3>
-    <p>
-      A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
-    </p>
-    <div >
-      <ul class="buttons">
-        <button><li>CSS</li></button>
-        <button><li>HTML</li></button>
-        <button><li>Bootstrap</li></button>
-        <button><li>Ruby</li></button>
-        <button class="two"><li>See project</li></button>
-      </ul>
+const recent = document.getElementById('portfolio')
+const cardSection = document.getElementsByClassName('card-section')
+
+const recentContent = [{
+  title: 'My Recent Works',
+  img: "./Assets/Img Placeholder.png",
+  imgAlt: " background assest image",
+  stories: 'Multi-Post Stories',
+  desc: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+  buttons: ['HTML', 'CSS', 'Bootsrap', 'Ruby', 'See project']
+}]
+
+recentContent.forEach((e) => {
+  recent.insertAdjacentHTML('afterbegin',`
+  <div class="recent">
+  <div class="line">
+    <h2>${e.title}</h2>
+    <hr>
+  </div>
+  <div class="img-txt">
+    <img src="./Assets/Img Placeholder.png" alt=" background assest image">
+    <div class="multi">
+      <h3>${e.stories}</h3>
+      <p>${e.desc}</p>
+      <div >
+        <ul class="buttons">
+          <button><li>${e.buttons[0]}</li></button>
+          <button><li>${e.buttons[1]}</li></button>
+          <button><li>${e.buttons[2]}</li></button>
+          <button><li>${e.buttons[3]}</li></button>
+          <button class="two"><li>${e.buttons[4]}</li></button>
+        </ul>
+      </div>
     </div>
   </div>
 </div>
-</div>
-`;
+  `)
+})
 
-let body = document.querySelector('body')
 
-body.appendChild(portfolio)
 
-let cardSection = document.createElement('section')
-cardSection.classList.add('card-section')
-let cardDetails = `
-<div class="cards">
-<div class="card-item">
-  <h1>Profesional Art Printing Data</h1>
-  <p>A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.</p>
-  <ul class="buttons3">
-   <li><button>CSS</button></li>
-   <li><button>HTML</button></li>
-   <li><button>Ruby</button></li>
-  </ul>
-  <button class="proj-btn">See project</button>
-</div>
-</div>
-`;
-cardSection.innerHTML = cardDetails
-body.appendChild(cardSection)
-cardSection.insertAdjacentHTML('beforeend', cardDetails)
-cardSection.insertAdjacentHTML('beforeend', cardDetails)
-cardSection.insertAdjacentHTML('beforeend', cardDetails)
-cardSection.insertAdjacentHTML('beforeend', cardDetails)
-cardSection.insertAdjacentHTML('beforeend', cardDetails)
+
 
 let about = document.createElement('section')
 about.classList.add('about')
