@@ -436,19 +436,21 @@ form button:hover {
   flex-direction: column;
   position: relative;
   font-family: 'Inter', sans-serif;
-  background-color: #1c1a19;
   background-image: url(./Assets/about-bg.png);
   background-repeat: no-repeat;
   background-position: right 25rem;
   background-size: 9rem;
+  background-color: #1c1a19;
   padding: 20px;
   margin-top: -85px;
+  color: #fff;
 }
 
 .about-me {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+
   justify-content: space-between;
   height: 390px;
   color: #fff;
@@ -469,6 +471,7 @@ form button:hover {
   font-size: 16px;
   padding: 10px;
   top: 223px;
+  color: #fff;
 }
 
 .about-me ul li {
@@ -879,7 +882,7 @@ form textarea:placeholder-shown {
   .about {
     width: 100%;
     height: 1200px;
-    top: -400px;
+    top: -350px;
     background-image: url(./Assets/desktop-about.png);
     background-size: 35rem;
     background-position: 10rem right;

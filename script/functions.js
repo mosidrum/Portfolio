@@ -35,3 +35,5 @@ function validateEmail(email){
   }
   
 }
+
+const form = document
