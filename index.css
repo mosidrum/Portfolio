@@ -442,6 +442,7 @@ form button:hover {
   background-position: right 25rem;
   background-size: 9rem;
   padding: 20px;
+  margin-top: -85px;
 }
 
 .about-me {
