@@ -121,21 +121,17 @@ seeProjects.forEach((el) => {
 
     document.querySelector('.project-details-popup').classList.toggle('show');
     document.getElementById('headline').scrollIntoView();
-    document
-      .querySelector('#close-icon-detail')
-      .classList.toggle('close-icon-detail');
+    document.querySelector('#close-icon-detail').classList.toggle('close-icon-detail');
   });
 });
 
-// document.querySelector('#close-icon-detail').addEventListener('click', () => {
-//   document.querySelector('.project-details-popup').classList.toggle('show');
-//   document
-//     .querySelector('#close-icon-detail')
-//     .classList.toggle('close-icon-detail');
-//   if (id === 'projects-1') {
-//     document.getElementById(id).focus();
-//   } else {
-//     const section = document.querySelector('#card-section');
-//     section.scrollIntoView({ behavior: 'smooth' });
-//   }
-// });
+  document.querySelector('#close-icon-detail').addEventListener('click', () => {
+  document.querySelector('.project-details-popup').classList.toggle('show');
+  document.querySelector('#close-icon-detail').classList.toggle('close-icon-detail');
+ if (id === 'projects-1') {
+   document.getElementById(id).focus();
+ } else {
+    const section = document.querySelector('#card-section');
+    section.scrollIntoView({ behavior: 'smooth' });
+  }
+ });
