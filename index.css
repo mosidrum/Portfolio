@@ -32,6 +32,8 @@ header {
   background: #2c2b2a;
   color: rgb(255, 255, 255);
   padding: 20px;
+  /* position: fixed;
+  z-index: 100; */
 }
 
 header a {
