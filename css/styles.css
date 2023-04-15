@@ -643,7 +643,7 @@ textarea::placeholder {
   box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
   backdrop-filter: blur(5px);
   overflow: hidden;
-  height: 105vh;
+  height: 205vh;
   width: 100vw;
   position: fixed;
   top: 0;
