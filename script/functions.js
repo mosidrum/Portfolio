@@ -37,3 +37,28 @@ function validateEmail(email){
   }
   
 }
+<<<<<<< HEAD:script/functions.js
+
+const form = document.getElementById('form')
+
+form.addEventListener('input', () => {
+  const saveFormData = {
+    fullname: document.getElementById('name').value,
+    email: document.getElementById('email').value,
+    message: document.getElementById('textarea').value,
+  }
+  localStorage.setItem('saveFormData', JSON.stringify(saveFormData))
+})
+
+const parseFormData = JSON.parse(localStorage.getItem('saveFormData'))
+
+if (parseFormData) {
+  const fullname = document.getElementById('name')
+  fullname.value = parseFormData.fullname
+  const email = document.getElementById('email')
+  email.value = parseFormData.email
+  const message = document.getElementById('textarea')
+  message.value = parseFormData.message
+}
+=======
+>>>>>>> 7ec8c26cc02a83d76cc10425b3f0a8440a0f4c2b:index.js
