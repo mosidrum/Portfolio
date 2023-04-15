@@ -125,13 +125,13 @@ seeProjects.forEach((el) => {
   });
 });
 
-  document.querySelector('#close-icon-detail').addEventListener('click', () => {
+document.querySelector('#close-icon-detail').addEventListener('click', () => {
   document.querySelector('.project-details-popup').classList.toggle('show');
   document.querySelector('#close-icon-detail').classList.toggle('close-icon-detail');
- if (id === 'projects-1') {
-   document.getElementById(id).focus();
- } else {
+  if (id === 'projects-1') {
+    document.getElementById(id).focus();
+  } else {
     const section = document.querySelector('#card-section');
     section.scrollIntoView({ behavior: 'smooth' });
   }
- });
+});
