@@ -31,10 +31,13 @@ function validateEmail(email){
       name ===''
       email ===''
       msg ===''
+      success.style.display = 'none'
+      danger.style.display = 'none'
     },2000)
   }
   
 }
+<<<<<<< HEAD:script/functions.js
 
 const form = document.getElementById('form')
 
@@ -57,3 +60,5 @@ if (parseFormData) {
   const message = document.getElementById('textarea')
   message.value = parseFormData.message
 }
+=======
+>>>>>>> 7ec8c26cc02a83d76cc10425b3f0a8440a0f4c2b:index.js
