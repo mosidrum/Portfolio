@@ -168,7 +168,7 @@ Example:
 
 - GitHub: [@githubhandle](https://github.com/mosidrum)
 - Twitter: [@twitterhandle](https://twitter.com/mosidrum)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/Ayodeleisaac)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/isaac-ayodele-37890521b)
 
 👤 **Author2**
 
