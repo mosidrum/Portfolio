@@ -69,7 +69,7 @@
   width: 75vw;
 }
 
-.modal-ctn img{
+.modal-ctn img {
   width: 1900px;
   height: 350px;
 }
@@ -77,6 +77,11 @@
 .modal-click {
   display: flex;
   gap: 18px;
+}
+
+.modal-click img {
+  width: 100px;
+  height: 20px;
 }
 
 .modal-click .modal-github img {
@@ -96,11 +101,6 @@
   color: #fffdfd;
   background: orangered;
   padding: 10px 25px;
-}
-
-.modal-click img {
-  width: 100px;
-  height: 20px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -129,9 +129,5 @@
     display: flex;
     flex-direction: column;
     height: 100vh;
-  }
-
-  .modal-ctn img{
-    display: none;
   }
 }

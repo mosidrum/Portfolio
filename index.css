@@ -32,8 +32,6 @@ header {
   background: #2c2b2a;
   color: rgb(255, 255, 255);
   padding: 20px;
-  /* position: fixed;
-  z-index: 100; */
 }
 
 header a {
@@ -452,7 +450,6 @@ form button:hover {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-
   justify-content: space-between;
   height: 390px;
   color: #fff;
@@ -862,7 +859,7 @@ form textarea:placeholder-shown {
     width: 100%;
     height: 100%;
     display: grid;
-    grid-template-rows: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     margin-bottom: 1000px;

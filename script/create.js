@@ -1,4 +1,5 @@
 /* eslint-disable max-len */
+/* eslint-disable no-unused-vars */
 const body = document.querySelector('body');
 const recent = document.getElementById('portfolio');
 
