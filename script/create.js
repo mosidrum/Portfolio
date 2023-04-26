@@ -42,32 +42,32 @@ const cardSectionsData = [
   {
     title: 'Profesional Art Printing Data',
     desc: "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
-    buttons: ['CSS', 'HTML', 'Ruby', 'See project']
+    buttons: ['CSS', 'HTML', 'Ruby', 'See project'],
   },
   {
     title: 'Data Dashboard Healthcare',
     desc: "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
-    buttons: ['CSS', 'HTML', 'Ruby', 'See project']
+    buttons: ['CSS', 'HTML', 'Ruby', 'See project'],
   },
   {
     title: 'Website Portfolio',
     desc: "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
-    buttons: ['CSS', 'HTML', 'Ruby', 'See project']
+    buttons: ['CSS', 'HTML', 'Ruby', 'See project'],
   },
   {
     title: 'Profesional Art Printing Data 2',
     desc: "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
-    buttons: ['CSS', 'HTML', 'Ruby', 'See project']
+    buttons: ['CSS', 'HTML', 'Ruby', 'See project'],
   },
   {
     title: 'Data Dashboard Healthcare 2',
     desc: "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
-    buttons: ['CSS', 'HTML', 'Ruby', 'See project']
+    buttons: ['CSS', 'HTML', 'Ruby', 'See project'],
   },
   {
     title: 'Website Portfolio 2',
     desc: "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
-    buttons: ['CSS', 'HTML', 'Ruby', 'See project']
+    buttons: ['CSS', 'HTML', 'Ruby', 'See project'],
   },
 ];
 
@@ -126,7 +126,6 @@ for (let i = 0; i < projectTitles.length; i += 1) {
     `;
 }
 body.appendChild(modalSection);
-
 
 const cardSection = document.createElement('section');
 cardSection.classList.add('card-section');
