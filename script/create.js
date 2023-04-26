@@ -217,7 +217,7 @@ const footerContent = `
       Wrong email
     </div>
   </div>
-  <button onclick="validateEmail('email')">Get in touch</button>
+  <button onclick="validateEmail()">Get in touch</button>
 </form>
 </div>
 <div class="foot">

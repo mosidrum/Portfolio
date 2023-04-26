@@ -17,7 +17,7 @@ function closeMenu() {
   }
 }
 
-function validateEmail(email) {
+function validateEmail() {
   const email = document.getElementById('email').value;
   const msg = document.getElementById('textarea').value;
   const name = document.getElementById('name').value;
