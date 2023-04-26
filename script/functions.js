@@ -21,8 +21,8 @@ function validateEmail() {
   let email = document.getElementById('email').value;
   let msg = document.getElementById('textarea').value;
   let name = document.getElementById('name').value;
-  let success = document.getElementById('success');
-  let danger = document.getElementById('danger');
+  const success = document.getElementById('success');
+  const danger = document.getElementById('danger');
 
   if (email === String(email).toLowerCase() && email !== '') {
     success.style.display = 'block';
