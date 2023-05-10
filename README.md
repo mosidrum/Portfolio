@@ -83,7 +83,7 @@ After you're finished please remove all the comments and instructions!
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-https://https://mosidrum.github.io/Portfolio/
+https://mosidrum.github.io/Portfolio/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p
 
