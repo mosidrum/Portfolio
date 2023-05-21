@@ -1,199 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet" />
-  <title>Mosidrum</title>
-  <link rel="stylesheet" href="css/styles.css" />
-  <link rel="stylesheet" href="css/media.css" />
-</head>
-<body>
-  <!-- header section -->
-  <header>
-    <div id="headline" class="headline">
-      <a href="#" class="logo"> Mosidrum</a>
-      <i class="hamburger" alt="icon"></i>
-      <nav aria-label="Menu" class="mobile-menu">
-        <ul>
-          <li><a href="#resent-works">Portfolio</a></li>
-          <li><a href="#about-section">About</a></li>
-          <li><a href="#contact-detail">Contact</a></li>
-        </ul>
-      </nav>
-      <nav aria-label="Menu" class="main-menu">
-        <ul>
-          <li><a href="#resent-works">Portfolio</a></li>
-          <li><a href="#about-section">About</a></li>
-          <li><a href="#contact-detail">Contact</a></li>
-          <li><a class="contact-icon" href="#contact-detail"></a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-  <!-- headline section -->
-  <section id="headline_section" class="headline_section">
-    <div>
-      <h1 class="h1">
-        Hey There.<br />
-        I'm Mosidrum
-      </h1>
-
-      <h4 class="h4">I'm a Software Developer</h4>
-
-      <p class="p">
-        I can help you build a product , feature or website. Look through some
-        of my work and experience! If you like what you see and have a project
-        you need coded, don’t hesitate to contact me.
-      </p>
-    </div>
-
-    <!-- social media section -->
-    <ul class="image-icons-header">
-      <li>
-        <a href="https://www.linkedin.com/in/kifle-haile-5a613761"><img src="Images/Linkedin.png" alt="Linkedin icon" /></a>
-      </li>
-      <li>
-        <a href="#"><img src="Images/VectorH.png" alt="Angel List icon" /></a>
-      </li>
-      <li>
-        <a href="https://twitter.com/KifleHaile12"><img src="Images/Twitter.png" alt="Twitter icon" /></a>
-      </li>
-      <li>
-        <a href="#"><img src="Images/Medium.png" alt="Medium icon" /></a>
-      </li>
-      <li>
-        <a href="https://github.com/kifle23"><img src="Images/GitHub.png" alt="GitHub icon" /></a>
-      </li>
-    </ul>
-  </section>
-  <section id="resent-works"></section>
-  <section id="card-section" class="card-section"></section>
-  <!-- ----------------------About section----------------->
-  <section id="about-section" class="about-section">
-    <div class="about-introduction-content">
-      <h1 class="about-heading">About me</h1>
-      <p>
-        Hey there! I can help you build a product, feature or website. Look
-        through some of my work and experience! If you like what you see and
-        have a project you need coded, don't hesitate to contact me.
-      </p>
-      <button class="my-resume-button" type="button">Get My Resume</button>
-    </div>
-    <div class="background-graphic"></div>
-    <hr class="horizontal-seperator-on-dark" />
-    <div class="about-myself">
-      <div class="language-section">
-        <div class="list-style">
-          <div class="diamond"></div>
-          <h2>Language</h2>
-        </div>
-        <ul class="about-section-content">
-          <li>Javascript</li>
-          <li>Ruby</li>
-          <li>Html</li>
-          <li>Css</li>
-        </ul>
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			http-equiv="X-UA-Compatible"
+			content="IE=edge"
+		/>
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<link
+			rel="stylesheet"
+			href="index.css"
+		/>
+    <link rel="stylesheet" href="./modal.css">
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+			integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<title>Mosidrum | Portfolio</title>
+	</head>
+		<header>
+      <a href="#"><span>Isaac Mosiron</span></a>
+      <div class="icons2" onclick="showMenu()">
+        <i class="fa fa-bars"></i>
       </div>
-      <div class="language-section">
-        <div class="list-style">
-          <div class="square"></div>
-          <h2>Frameworks</h2>
-        </div>
-        <ul class="about-section-content">
-          <li>React.js</li>
-          <li>Ruby on Rails</li>
-          <li>RSPec</li>
-          <li>CapyBara</li>
-        </ul>
-      </div>
-      <div class="language-section">
-        <div class="list-style" id="skills">
-          <div class="circle"></div>
-          <h2>Skills</h2>
-        </div>
-        <ul class="about-section-content">
-          <li>Database Management</li>
-          <li>Version Control</li>
-          <li>CLI</li>
-          <li>API Design</li>
-          <li>Web Development</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-  <section id="contact-detail">
-    <div class="contact-wrapper">
-      <div>
-        <h2 class="contact-header">
-          I'm always interested in hearing about new projects, so if you'd
-          like to chat please get in touch.
-        </h2>
-      </div>
-      <form id="contactForm" action="https://formspree.io/f/xyyangjd" method="POST">
-        <label for="fullName" hidden>Full Name</label>
-        <input type="text" id="full-name" name="fullName" placeholder="Full name" maxlength="30" required />
-        <label for="email" hidden>Email</label>
-        <input type="email" name="email" placeholder="Email" required />
-        <label for="message" hidden>Message</label>
-        <textarea name="message" id="form-message" placeholder="Write me something..." maxlength="500"
-          required></textarea>
-        <span id="alert"></span>
-        <ul class="contact-btns">
+			<nav>
+        <ul id="menu">
           <li>
-            <button id="btn-msg" type="submit" class="project-details btn-contact">
-              Get in touch
-            </button>
+            <a href="#portfolio" onclick="closeMenu()">Portfolio</a>
+            <a href="#about" onclick="closeMenu()">About</a>
+            <a href="#contact" onclick="closeMenu()">Contact</a>
           </li>
-          <li>
-            <button type="reset" class="project-details btn-contact">Reset</button>
-          </li>
+          <div class="envelop"><i class="fa-regular fa-envelope"></i></div>
+          <div class="cancel" id="close" onclick="closeMenu()"><i class="fa fa-times"></i></div>
         </ul>
-      </form>
-    </div>
-  </section>
-  <section id="footer">
-    <ul class="image-icons-footer">
-      <li>
-        <a href="https://github.com/kifle23"><img src="Images/icons/github.png" alt="GitHub" /></a>
-      </li>
-      <li>
-        <a href="#"><img src="Images/icons/Vector1.png" alt="Angels List" /></a>
-      </li>
-      <li>
-        <a href="https://www.linkedin.com/in/kifle-haile-5a613761"><img src="Images/icons/linkedin.png"
-            alt="Linkedin" /></a>
-      </li>
-      <li>
-        <a href="https://twitter.com/KifleHaile12"><img src="Images/icons/twitter.png" alt="Twitter" /></a>
-      </li>
-      <li>
-        <a href="#"><img src="Images/icons/Vector.png" alt="Medium" /></a>
-      </li>
-    </ul>
-  </section>
-  <div id="myPopup" class="popup">
 
-  <script src="scripts/menu.js" defer></script>
-  <script src="scripts/generate-recent.js" defer></script>
-  <script src="scripts/generate-cards.js" defer></script>
-  <script src="scripts/detail-popup.js" defer></script>
-  <script src="scripts/validation-handler.js" defer></script>
-  <script src="scripts/local-storage.js" defer></script>
-</body>
+			</nav>
+		</header>
+		<main class="body">
+			<section class="main">
+				<div class="text">
+          <h1>Hey There. I’m Isaac.</h1>
+          <h2 class="text-top">I'm a Software Developer</h2>
+          <p class="text-down">
+            I can help you build a product, feature or website Look through some
+            of my work and experience! If you like what you see and have a project
+            you need coded, don’t hesitate to contact me.
+          </p>
+        </div>
+				<ul class="icons">
+					<li>
+						<a href="https://linkedin.com/ayodeleisaac"
+							><img src="./assets/GroupI.png" alt="linkedin image of ayodele Isaac"
+						/></a>
+					</li>
+					<li>
+						<a href="https://twitter.com/mosidrum"
+							><img src="./assets/GroupT.png" alt="twitter image of ayodele isaac"
+						/></a>
+					</li>
+					<li>
+						<a href="https://github.com/mosidrum"
+							><img src="./assets/VectorG.png" alt="github image of ayodele isaac"
+						/></a>
+					</li>
+					<li>
+						<a href="https://linkedin.com/in"><img src="./assets/VectorH.png" alt="medium image of ayodele isaac" /></a>
+					</li>
+					<li>
+						<a href="https://medium.com/ayodeleisaac"
+							><img src="./assets/VectorM.png" alt="social image of ayodele isaac"
+						/></a>
+					</li>
+				</ul>
+			</section>
+
+      <section id="portfolio"></section>
+      <section id="about"></section>
+
+      <script src="./script/functions.js"></script>
+    <script src="./script/create.js"></script>
+	</main>
 </html>
